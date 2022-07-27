@@ -42,7 +42,7 @@ class TypeloginState extends State<Typelogin> {
                 height: 10,
               ),
               Text(
-                "SMA Taruna Intensif Pembangunan Surabaya !",
+                "SMA Intensif Taruna Pembangunan Surabaya !",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 19,
@@ -84,11 +84,11 @@ class TypeloginState extends State<Typelogin> {
                         }
                       ));
                     },
-                    color: Color(0xff0095FF),
                     shape: RoundedRectangleBorder(
+                      side: BorderSide(color: Colors.blue),
                       borderRadius: BorderRadius.circular(50),
                     ),
-                    child: Text("Guru", style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+                    child: Text("Guru", style: TextStyle(color: Colors.blue, fontSize: 18, fontWeight: FontWeight.bold)),
                   ),
                   SizedBox(
                     height: 3,

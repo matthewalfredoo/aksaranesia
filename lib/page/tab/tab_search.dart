@@ -76,7 +76,7 @@ class TabSearch extends StatelessWidget {
 		  							),
 		  							child: Row(
 		  								children: [
-		  									Image.asset(source[index]['logo']),
+                        Image.asset(source[index]['logo'], width: 50),
 		  									SizedBox(width: 10),
 		  									Expanded(child: Text(source[index]['title'])),
 		  								],

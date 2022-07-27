@@ -98,11 +98,11 @@ class WelcomeState extends State<Welcome> {
                         }
                       ));
                     },
-                    color: Color(0xff0095FF),
                     shape: RoundedRectangleBorder(
+                      side: BorderSide(color: Colors.blue),
                       borderRadius: BorderRadius.circular(50),
                     ),
-                    child: Text("Log in", style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+                    child: Text("Log in", style: TextStyle(color: Colors.blue, fontSize: 18, fontWeight: FontWeight.bold)),
                   ),
                   SizedBox(
                     height: 20,
